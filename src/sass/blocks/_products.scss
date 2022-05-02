@@ -1,0 +1,20 @@
+.products {
+    margin-top: 60px;
+
+    &__filter {
+        display: flex;
+        justify-content: space-evenly;
+
+        &-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            &:hover .products__filter-descr {
+                color: #FF0000;
+            }
+        }
+    }
+}

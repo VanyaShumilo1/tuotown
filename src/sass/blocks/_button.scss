@@ -6,4 +6,11 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 23px;
+    transition: 0.5s all;
+
+    &:hover {
+        color: #000;
+        background: #E0E0E0;
+        border: 2px solid #828282;
+    }
 }
