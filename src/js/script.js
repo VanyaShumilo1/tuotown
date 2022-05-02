@@ -15,4 +15,19 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
+const burger = document.querySelector(".burger");
+const menu = document.querySelector(".menu");
+const close = document.querySelector(".menu__close svg");
+const overlay = document.querySelector(".menu__overlay");
 
+burger.addEventListener("click", function(){
+    menu.classList.add("menu_active");
+});
+
+close.addEventListener("click", function(){
+    menu.classList.remove("menu_active");
+});
+
+overlay.addEventListener("click", function(){
+    menu.classList.remove("menu_active");
+});

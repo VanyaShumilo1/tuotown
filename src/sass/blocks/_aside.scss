@@ -9,38 +9,39 @@
     opacity: 0;
     transition: 0.5s all;
 
+
     &_active {
         left: 0;
         visibility: visible;
         opacity: 1;
     }
 
-    &__close {
-        position: absolute;
-        top: 25px;
-        right: 25px;
+    &__close svg {
         cursor: pointer;
     }
 
     &__block {
-        padding-top: 140px;
-        padding-left: 40px;
+        padding-top: 40px;
+        padding-left: 48px;
         height: 100%;
-        width: 345px;
-        background: #000;
+        width: 444px;
+        background: rgba(0, 0, 0, 0.95);
         position: relative;
         z-index: 10;
         transition: 0.5s all;
     }
 
+    &__nav {
+        margin-top: 51px;
+    }
+
     &__list {
         list-style-type: none;
-        margin-left: 35px;
     }
 
     &__item {
         position: relative;
-        margin-bottom: 15px;
+        margin-bottom: 35px;
 
         &:before {
             content: "";
@@ -63,15 +64,12 @@
     }
 
     &__link {
-        font-weight: 700;
-        font-size: 24px;
         color: #FFFFFF;
-        line-height: 36px;
         text-transform: uppercase;
 
         &:hover {
             text-decoration: none;
-            color: #000000;
+            color: #f77e7e;
         }
     }
 
@@ -85,8 +83,15 @@
         transform: translateX(-50%);
     }
 
+    &__company {
+        list-style: none;
+        &-item{
+            margin-bottom: 10px;
+        }
+    }
+
     &__overlay {
-        background: #FFFFFF;
+        background: #000;
         opacity: 0.75;
         position: fixed;
         left: 0;
