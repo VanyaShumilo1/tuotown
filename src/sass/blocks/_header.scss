@@ -1,0 +1,68 @@
+.header {
+    height: 100vh;
+    background: url(../img/header/bg.png) center center/cover no-repeat;
+
+    &__menu {
+        background: rgba(33, 33, 33, 0.8);
+        backdrop-filter: blur(11px);
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 0;
+    }
+
+    &__phone {
+        line-height: 22px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 35px;
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &__content {
+        padding-left: 69px;
+    }
+
+    button {
+        margin-top: 40px;
+    }
+
+    &__swiper-navigation {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        svg {
+            transform: scale(4);
+        }
+    }
+}
+
+.header .swiper {
+    margin-top: 78px;
+    position: static;
+}
+
+.swiper-pagination,
+.swiper-button-prev,
+.swiper-button-next {
+    position: static;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
+}
