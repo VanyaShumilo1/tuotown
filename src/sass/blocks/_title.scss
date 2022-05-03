@@ -17,3 +17,17 @@
     margin-top: 24px;
     color: #FFFFFF;
 }
+
+.product-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    &:hover {
+        color:azure;
+        text-decoration: underline;
+    }
+}
