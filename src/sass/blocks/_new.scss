@@ -1,0 +1,31 @@
+.new {
+    margin-top: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 60px 0;
+
+    &__filter {
+        display: flex;
+        justify-content: center;
+        gap: 53px;
+
+        &-item {
+            a {
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 42px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                transition: all 0.3s;
+                &:hover {
+                    text-decoration: none;
+                    color: #e34e4e;
+                }
+            }
+        }
+    }
+}
+
+.filter-active {
+    border-bottom: 3px solid red;
+}
