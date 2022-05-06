@@ -1,6 +1,17 @@
 .title {
     font-family: 'Jura' sans-serif;
 
+    &-fz27 {
+        text-align: center;
+        font-size: 27px;
+        font-family: 'Jura';
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 42px;
+        color: #FFFFFF;
+
+    }
+
     &-header {
         font-weight: 400;
         font-size: 41px;
@@ -27,7 +38,7 @@
     cursor: pointer;
 
     &:hover {
-        color:azure;
+        color: azure;
         text-decoration: underline;
     }
 }
