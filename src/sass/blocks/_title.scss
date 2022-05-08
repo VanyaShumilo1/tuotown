@@ -1,5 +1,5 @@
 .title {
-    font-family: 'Jura' sans-serif;
+    font-family: 'Jura', sans-serif;
 
     &-fz27 {
         text-align: center;
@@ -8,6 +8,21 @@
         font-weight: 500;
         font-size: 27px;
         line-height: 42px;
+        color: #FFFFFF;
+
+    }
+
+    &-fz35 {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+
+    &-fz28 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 36px;
         color: #FFFFFF;
 
     }
