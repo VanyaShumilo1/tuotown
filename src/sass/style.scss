@@ -25,6 +25,7 @@ a {
 
 body {
     background: #373737;
+    position: relative;
 }
 
 @import "blocks/aside";
@@ -36,6 +37,7 @@ body {
 @import "blocks/tuotown";
 @import "blocks/posts";
 @import "blocks/footer";
+@import "blocks/location";
 
 
 @import "blocks/media";
