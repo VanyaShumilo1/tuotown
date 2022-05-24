@@ -28,6 +28,10 @@ body {
     position: relative;
 }
 
+main {
+    transition: all 0.5s;
+}
+
 @import "blocks/aside";
 @import "blocks/title";
 @import "blocks/button";
